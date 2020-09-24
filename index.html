@@ -7,10 +7,12 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v4.1.1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  <title>Login Justificativa de Horas</title>
+  <script type="text/javascript" src="js/usuario.js"></script>  
+
+  <title>Portal Justificativa de Horas - Login</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
@@ -35,7 +37,7 @@
   </style>
 
   <!-- Custom styles for this template -->
-  <link href="signin.css" rel="stylesheet">
+  <link href="css/signin.css" rel="stylesheet">
 </head>
 
 <body class="text-center">
@@ -44,16 +46,19 @@
 
 
   <form class="form-signin">
+    <fieldset>  
     <img src="../frontendmnp3r/images/logo.png" alt="Img nao encontrada" width="20%" height="40%">
     <br><br>
-    <h2 class="h3 mb-3 font-weight-normal">Justificativa de horas</h2>
+    <h2 class="h3 mb-3 font-weight-normal">Login</h2>
     <label for="inputracf" class="sr-only">RACF</label>
-    <input type="text" id="inputEmail" class="form-control" placeholder="RACF" required autofocus>
+    <input  id="txtracf" type="text" id="inputEmail" class="form-control" placeholder="RACF" required autofocus>
     <label for="inputsenha" class="sr-only">Senha</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+    <input id="txtsenha" type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
 
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Conectar</button>
+    <button onclick="usuario()" class="btn btn-lg btn-primary btn-block" type="button">Conectar</button>
+
     <p class="mt-5 mb-3 text-muted">&copy; MNP3R Itau DevOps 2020</p>
+  </fieldset>  
   </form>
 
 
