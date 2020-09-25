@@ -42,19 +42,21 @@
     
     <center><div class="card text-center">
         <div class="card-header">
-        <h4>Sistema Justificativa - Visão Colaborador</h4>
+        <h4><img src="../frontendmnp3r/images/itau.png" width="10%">Sistema Justificativa - Visão Colaborador</h4>
         </div>
         <div class="card-body">
+
+
+            
 
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4">
-                            Data:
+                        <b>Data:</b>
                         </div>
-                        <div class="col-md-8">
-                            12/12/2020
-                        </div>
+                        <div class="col-md-8" id="resdata">
+                                                    </div>
                     </div>
 
             <br>
@@ -63,10 +65,10 @@
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4">
-                            Qnt horas:
+                            <b>Qntd horas:</b>
                         </div>
-                        <div class="col-md-8">
-                            00hrs
+                        <div class="col-md-8" id="reshora">
+                    
                         </div> 
                     </div>
                     <br>
@@ -74,7 +76,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4">
-                                    Atividade:
+                                <b> Atividade:</b>
                                 </div>
                                 <div class="col-md-8">
                                     <div id="cmbatividade">
@@ -91,10 +93,10 @@
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4">
-                            Descrição:
+                        <b>Descrição:</b>
                         </div>
-                        <div class="col-md-8">
-                            <textarea name="mensagem" class="campo_msg" cols="35" rows=8 ></textarea>
+                        <div class="col-md-8" >
+                            <textarea id="desc" type="text" name="mensagem" class="campo_msg" cols="35" rows=8 ></textarea>
                         </div> 
                     </div>
                     <br>
@@ -104,7 +106,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4">
-                                    Ajuste manual?
+                                <b>Ajuste manual?</b>
                                 </div>
                                 <div class="col-md-2">
                                     <fieldset class="form-group">
@@ -126,13 +128,10 @@
                                     </div> 
                                 </div>
                                 <div class="col-md-6">
-                                    <a href= "file:///C:/Users/987266909/Desktop/turma8c/workspacehumberto8c/frontendmnp3r/pagina_colaborador.html" class="btn btn-primary">Atualizar</a>  
+                                    <a onclick="atualizar" href= "../frontendmnp3r/pagina_colaborador.html" class="btn btn-primary" >Atualizar</a>  
                                 </div> 
                             </div>
                             <br>
-
-                    
-                           
 
 </div>
 </div>

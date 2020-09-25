@@ -24,8 +24,9 @@ function usuario(){
         }
                  
     })
-    .catch(err => {
+   .catch(err => {
         window.alert("Usuário e/ou senha incorretos");
-    }); 
+    })
+    
 
 }
